@@ -9,8 +9,8 @@ RUN apk update && \
     openvpn
 
 # Add a script to run OpenVPN, Transmission, and Nginx
-COPY run.sh /run.sh
-RUN chmod +x /run.sh
+COPY start-openvpn-client.sh /start-openvpn-client.sh
+RUN chmod +x /start-openvpn-client.sh
 
 # Set the entrypoint to the script
-ENTRYPOINT ["/run.sh"]
+ENTRYPOINT ["/start-openvpn-client.sh"]
