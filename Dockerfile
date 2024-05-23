@@ -1,12 +1,13 @@
 # Use the latest Alpine as the base image
 FROM alpine:latest
 
-# Install OpenVPN
+# Install OpenVPN and other necessary tools
 RUN apk update && \
     apk add --no-cache \
     bash \
     curl \
-    openvpn
+    openvpn && \
+    rm -rf /var/cache/apk/*
 
 # Add a script to run OpenVPN, Transmission, and Nginx
 COPY run.sh /run.sh
