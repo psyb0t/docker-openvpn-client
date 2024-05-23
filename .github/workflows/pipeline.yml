@@ -5,6 +5,7 @@ on: [push]
 jobs:
   call-docker-image-workflow:
     uses: psyb0t/reusable-github-workflows/.github/workflows/docker-image-workflow.yml@master
+
     with:
       repository_name: psyb0t/openvpn-client
       target_platforms: "linux/amd64,linux/arm64"
