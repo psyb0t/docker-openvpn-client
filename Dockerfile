@@ -1,5 +1,4 @@
-# Use the latest Alpine as the base image
-FROM alpine:latest
+FROM alpine:3.20
 
 # Install OpenVPN and other necessary tools
 RUN apk update && \
