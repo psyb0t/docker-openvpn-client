@@ -8,7 +8,7 @@ RUN apk update && \
     openvpn && \
     rm -rf /var/cache/apk/*
 
-# Add a script to run OpenVPN, Transmission, and Nginx
+# Copy run script
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
 
