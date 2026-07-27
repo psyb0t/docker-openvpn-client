@@ -1,5 +1,9 @@
 # OpenVPN Client Docker Image
 
+[![version](https://raw.githubusercontent.com/psyb0t/docker-openvpn-client/badges/version.svg)](https://github.com/psyb0t/docker-openvpn-client/releases)
+[![license](https://raw.githubusercontent.com/psyb0t/docker-openvpn-client/badges/license.svg)](LICENSE)
+[![Docker Pulls](https://img.shields.io/docker/pulls/psyb0t/openvpn-client?style=flat-square)](https://hub.docker.com/r/psyb0t/openvpn-client)
+
 ## WTF Is This?
 
 Yo, hackers and punks! Welcome to the most badass OpenVPN Client Docker image you'll ever see. This ain't your grandma's VPN setup. It's sleek, it's stealthy, and it’s ready to serve your rebellious needs.
