@@ -1,5 +1,6 @@
 # OpenVPN Client Docker Image
 
+[![CI](https://github.com/psyb0t/docker-openvpn-client/actions/workflows/pipeline.yml/badge.svg?branch=master)](https://github.com/psyb0t/docker-openvpn-client/actions/workflows/pipeline.yml)
 [![version](https://raw.githubusercontent.com/psyb0t/docker-openvpn-client/badges/version.svg)](https://github.com/psyb0t/docker-openvpn-client/releases)
 [![license](https://raw.githubusercontent.com/psyb0t/docker-openvpn-client/badges/license.svg)](LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/psyb0t/openvpn-client?style=flat-square)](https://hub.docker.com/r/psyb0t/openvpn-client)
